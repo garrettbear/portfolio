@@ -13,14 +13,15 @@ export default function Home() {
           priority
         />
         <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
+          <li>Coming Soon...</li>
+          <li>Garrett Whisten</li>
           <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              app/page.tsx
-            </code>
-            .
+            Hybrid designer and front-end developer based in Los Angeles,
+            specializing in design systems and crafting efficient, user-friendly
+            solutions. Experience includes contributing to the MetaMask Design
+            System at ConsenSys and leading GumGum&apos;s design system
+            development, streamlining workflows and enhancing team productivity.
           </li>
-          <li>Save and see your changes instantly.</li>
         </ol>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
