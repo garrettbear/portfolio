@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <div className="flex flex-col h-screen justify-end">
       <main className="flex flex-col p-4 md:p-8 gap-4">
-        <h1 className="text-4xl font-agrandir">
+        <h1 className="text-3xl font-agrandir">
           Garrett <q>Bear</q> Whisten
         </h1>
         <p className="text-xl md:max-w-[60vw]">
@@ -28,8 +28,8 @@ export default function Home() {
           </a>{" "}
           development, streamlining workflows and enhancing team productivity.
         </p>
-        <ul>
-          <li>
+        <ul className="text-lg w-max pr-2">
+          <li className="group transition-transform duration-300 ease-in-out hover:translate-x-2">
             <a
               href="https://www.linkedin.com/in/gwhisten/"
               target="_blank"
@@ -38,7 +38,7 @@ export default function Home() {
               🡒 LinkedIn
             </a>
           </li>
-          <li>
+          <li className="group transition-transform duration-300 ease-in-out hover:translate-x-2">
             <a
               href="https://github.com/garrettbear"
               target="_blank"
@@ -47,7 +47,7 @@ export default function Home() {
               🡒 GitHub
             </a>
           </li>
-          <li>
+          <li className="group transition-transform duration-300 ease-in-out hover:translate-x-2">
             <a
               href="https://drive.google.com/file/d/1pbm5QN35s2_jLzRdG8oelVa3bFrGe89L/view?usp=sharing"
               target="_blank"

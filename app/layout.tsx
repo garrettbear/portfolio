@@ -3,9 +3,24 @@ import Head from "next/head";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Garrett Bear",
+  title: "Garrett 'Bear' Whisten",
   description:
-    "Hybrid designer and front-end developer based in Los Angeles, specializing in design systems and crafting efficient, user-friendly solutions. Experience includes contributing to the MetaMask Design System at ConsenSys and leading GumGum’s design system development, streamlining workflows and enhancing team productivity.",
+    "Hybrid designer and front-end developer based in Los Angeles, specializing in design systems and crafting efficient, user-friendly solutions.",
+  openGraph: {
+    title: "Garrett 'Bear' Whisten",
+    description:
+      "Hybrid designer and front-end developer based in Los Angeles, specializing in design systems and crafting efficient, user-friendly solutions.",
+    url: "https://www.garrettbear.com",
+    images: [
+      {
+        url: "/media.png",
+        width: 1200,
+        height: 630,
+        alt: "Garrett Bear",
+      },
+    ],
+    siteName: "GarrettBear",
+  },
 };
 
 export default function RootLayout({
