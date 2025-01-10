@@ -2,9 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Agrandir";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/agrandir.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Biotif";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/biotif.ttf") format("truetype");
+}
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #171717;
+  --foreground: #ffffff;
 }
 
 @media (prefers-color-scheme: dark) {
