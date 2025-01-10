@@ -3,11 +3,11 @@ import Head from "next/head";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Garrett 'Bear' Whisten",
+  title: 'Garrett "Bear" Whisten',
   description:
     "Hybrid designer and front-end developer based in Los Angeles, specializing in design systems and crafting efficient, user-friendly solutions.",
   openGraph: {
-    title: "Garrett 'Bear' Whisten",
+    title: 'Garrett "Bear" Whisten',
     description:
       "Hybrid designer and front-end developer based in Los Angeles, specializing in design systems and crafting efficient, user-friendly solutions.",
     url: "https://www.garrettbear.com",
