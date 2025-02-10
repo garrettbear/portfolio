@@ -11,6 +11,7 @@ export default {
       fontFamily: {
         agrandir: ['Agrandir', 'sans-serif'],
         biotif: ['Biotif', 'sans-serif'],
+        inter: ['Inter, sans-serif'],
       },
       fontSize: {
         'xs': 'calc(0.8vmin + 0.2rem)',

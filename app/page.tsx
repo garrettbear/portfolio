@@ -35,10 +35,7 @@ export default function Home() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <span className="font-[family-name:var(--font-inter-sans)]">
-                🡒
-              </span>{" "}
-              LinkedIn
+              <span className="font-inter">&#xE1D9;</span> LinkedIn
             </a>
           </li>
           <li className="group transition-transform duration-300 ease-in-out hover:translate-x-2">
@@ -47,10 +44,7 @@ export default function Home() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <span className="font-[family-name:var(--font-inter-sans)]">
-                🡒
-              </span>{" "}
-              GitHub
+              <span className="font-inter">&#xE1D9;</span> GitHub
             </a>
           </li>
           <li className="group transition-transform duration-300 ease-in-out hover:translate-x-2">
@@ -59,10 +53,7 @@ export default function Home() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <span className="font-[family-name:var(--font-inter-sans)]">
-                🡒
-              </span>{" "}
-              Resume
+              <span className="font-inter">&#xE1D9;</span> Resume
             </a>
           </li>
         </ul>
