@@ -4,6 +4,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"], weight: "600" });
+
 export const metadata: Metadata = {
   title: 'Garrett "Bear" Whisten',
   description:
@@ -41,9 +42,7 @@ export default function RootLayout({
           crossOrigin="anonymous"
         />
       </Head>
-      <body className={`${inter.variable} antialiased font-biotif`}>
-        {children}
-      </body>
+      <body className={`${inter} antialiased font-biotif`}>{children}</body>
     </html>
   );
 }
