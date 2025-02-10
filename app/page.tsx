@@ -35,7 +35,7 @@ export default function Home() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              🡒 LinkedIn
+              <span className="--font-inter-sans">🡒</span> LinkedIn
             </a>
           </li>
           <li className="group transition-transform duration-300 ease-in-out hover:translate-x-2">
@@ -44,7 +44,7 @@ export default function Home() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              🡒 GitHub
+              <span className="--font-inter-sans">🡒</span> GitHub
             </a>
           </li>
           <li className="group transition-transform duration-300 ease-in-out hover:translate-x-2">
@@ -53,7 +53,7 @@ export default function Home() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              🡒 Resume
+              <span className="--font-inter-sans">🡒</span> Resume
             </a>
           </li>
         </ul>
