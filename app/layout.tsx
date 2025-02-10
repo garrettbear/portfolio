@@ -3,8 +3,7 @@ import Head from "next/head";
 import { Inter } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"], variable: "--font-inter-sans" });
-
+const inter = Inter({ subsets: ["latin"], weight: "600" });
 export const metadata: Metadata = {
   title: 'Garrett "Bear" Whisten',
   description:
