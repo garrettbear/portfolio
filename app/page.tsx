@@ -53,7 +53,7 @@ export default function Home() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <span className="font-inter">→ 🡒</span> Resume
+              <span className="font-inter">→</span> Resume
             </a>
           </li>
         </ul>
