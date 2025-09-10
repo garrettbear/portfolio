@@ -2,11 +2,12 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { getProjectById, getAllProjects } from "@/lib/projects";
 import ProjectList from "@/components/ProjectList";
+import { parseUrlsInText } from "@/lib/utils";
 
 interface ProjectPageProps {
-  params: {
+  params: Promise<{
     slug: string;
-  };
+  }>;
 }
 
 export async function generateStaticParams() {
@@ -16,8 +17,9 @@ export async function generateStaticParams() {
   }));
 }
 
-export default function ProjectPage({ params }: ProjectPageProps) {
-  const project = getProjectById(params.slug);
+export default async function ProjectPage({ params }: ProjectPageProps) {
+  const { slug } = await params;
+  const project = getProjectById(slug);
 
   if (!project) {
     notFound();
@@ -52,7 +54,7 @@ export default function ProjectPage({ params }: ProjectPageProps) {
           </div>
 
           <p className="text-xl text-white/80 mb-6 max-w-3xl">
-            {project.longDescription}
+            {parseUrlsInText(project.longDescription)}
           </p>
 
           {/* Project Links */}
