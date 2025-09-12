@@ -78,6 +78,18 @@ export const projects: Project[] = [
     year: 2025
   },
   {
+    id: "milkcrate-art",
+    title: "Milkcrate.art",
+    description: "A playful 3D digital project inspired by milk crates, created as an experimental piece of design and art.",
+    longDescription: "Milkcrate.art is a random 3D experiment I made for fun, serving as a digital inspiration for a future project: creating tinted resin milk crates. While the long-term goal is physical fabrication, this project showcases the early creative exploration in a digital medium, blending design, art, and imagination.",
+    technologies: ["Three.js", "React"],
+    imageUrl: "/media.png",
+    liveUrl: "https://milkcrate.art",
+    githubUrl: "https://github.com/garrettbear/milkcrate.art",
+    featured: false,
+    year: 2023
+  },
+  {
     id: "ricotta-bear",
     title: "Ricotta Bear",
     description: "Branding and art direction for a pizza pop-up.",
