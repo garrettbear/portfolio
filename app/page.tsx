@@ -30,7 +30,7 @@ export default function Home() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              GumGum's Design System
+              GumGum&apos;s Design System
             </a>{" "}
             development, streamlining workflows and enhancing team productivity.
           </p>
