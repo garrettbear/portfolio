@@ -66,6 +66,18 @@ export const projects: Project[] = [
     year: 2018
   },
   {
+    id: "cvs-receipt",
+    title: "CVS Receipt Infinite Scroll",
+    description: "A fun CodePen experiment poking fun at CVS’s notoriously long receipts with an endless scroll effect.",
+    longDescription: "This playful CodePen project recreates the experience of receiving an endlessly long CVS receipt — because anyone who’s shopped at CVS knows the struggle. Built as a joke, it uses simple CSS and JavaScript to create an infinite scroll effect. To take it further, I built a quick data scraper for the CVS website that turned coupons into products, adding an extra layer of realism to the parody. The pen gained traction, becoming a top feature on CodePen and getting mentioned on both the Syntax.fm and CodePen Radio podcasts, showing how a small playful idea can resonate widely with the developer community.",
+    technologies: ["HTML", "CSS", "JavaScript"],
+    imageUrl: "/media.png",
+    liveUrl: "https://codepen.io/garrettbear/pen/JzMmqg",
+    githubUrl: "https://github.com/garrettbear/CVScraper",
+    featured: false,
+    year: 2019
+  },
+  {
     id: "portfolio-website",
     title: "Portfolio Website",
     description: "A modern, responsive portfolio website built with Next.js and Tailwind CSS, showcasing design and development skills.",
