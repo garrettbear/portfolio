@@ -22,8 +22,8 @@ export const projects: Project[] = [
   {
     id: "metamask-design-system",
     title: "MetaMask Design System",
-    description: "Contributed to MetaMask's comprehensive design system at ConsenSys, focusing on component library development and design consistency.",
-    longDescription: "As part of the MetaMask team at ConsenSys, I contributed to the development of their comprehensive design system. This involved creating reusable components, establishing design patterns, and ensuring consistency across the MetaMask ecosystem. The work included developing React components, documenting design guidelines, and collaborating with designers and developers to maintain high standards of user experience.",
+    description: "Contributed to MetaMask's comprehensive design system at Consensys, focusing on component library development and design consistency.",
+    longDescription: "As part of the MetaMask team at Consensys, I contributed to the development of their comprehensive design system. This involved creating reusable components, establishing design patterns, and ensuring consistency across the MetaMask ecosystem. The work included developing React components, documenting design guidelines, and collaborating with designers and developers to maintain high standards of user experience.",
     technologies: ["React", "TypeScript", "Storybook", "Figma", "Design Systems", "NPM"],
     imageUrl: "/media.png",
     photos: [
