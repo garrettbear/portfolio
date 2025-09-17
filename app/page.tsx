@@ -55,7 +55,7 @@ export default function Home() {
             </li>
             <li className="group transition-transform duration-300 ease-in-out hover:translate-x-2">
               <a
-                href="https://drive.google.com/file/d/1pbm5QN35s2_jLzRdG8oelVa3bFrGe89L/view?usp=sharing"
+                href="https://www.figma.com/proto/XJ2tS0gJKeXhEOcIE82w4t/Garrett-Whisten-Resume-2025?node-id=1-2&p=f&t=FoLO5HweN7bsaRHN-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1"
                 target="_blank"
                 rel="noopener noreferrer"
               >
