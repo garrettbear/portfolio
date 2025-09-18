@@ -23,7 +23,7 @@ export default function Home() {
             >
               MetaMask Design System
             </a>{" "}
-            at ConsenSys and leading{" "}
+            at Consensys and leading{" "}
             <a
               className="underline decoration-dotted hover:decoration-solid"
               href="https://concrete.gumgum.com/"
